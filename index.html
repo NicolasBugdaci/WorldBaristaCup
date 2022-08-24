@@ -46,15 +46,15 @@
 
 <body>
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-    <div class="container one">
+  <nav class="navbar navbar-expand-lg bg-black text-white row col-12">
+    <div class="container ps-0 pe-0 col-12 max-width-header">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="https://worldbaristacup.nicolasbugdaci.com" target="_blank""
           ><img class=" WBC" src="/assets/logo-white.svg" alt="World Barista Cup" /></a>
-      <div class="nav-stack">
+      <div class="nav-stack col-7">
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <!-- Search Bar -->
           <div class="search-contain">
@@ -73,16 +73,16 @@
           <!-- Socials Media -->
           <ul class="navbar-nav socials">
             <li class="nav-item">
-              <a href="#" class="nav-link"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="nav-link text-white"><i class="fa-brands fa-linkedin-in"></i></a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="nav-link text-white"><i class="fa-brands fa-twitter"></i></a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="nav-link text-white"><i class="fa-brands fa-instagram"></i></a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="nav-link text-white"><i class="fa-brands fa-facebook-f"></i></a>
             </li>
           </ul>
           <!-- End of Socials Media -->
@@ -90,22 +90,22 @@
           <!-- Menu -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About us</a>
+              <a class="nav-link text-white" aria-current="page" href="#">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
+              <a class="nav-link text-white" href="#">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nordic roaster</a>
+              <a class="nav-link text-white" href="#">Nordic roaster</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Results</a>
+              <a class="nav-link text-white" href="#">Results</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Links</a>
+              <a class="nav-link text-white" href="#">Links</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link text-white" href="#">Contact</a>
             </li>
           </ul>
           <!-- End of the Menu -->
@@ -115,71 +115,89 @@
     </div>
   </nav>
 
-  <!-- Carousel -->
-  <div class="container-fluid two">
-    <div id="first-carousel" class="carousel slide carousel-fade" data-interval="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/assets/images/carousel/wood.webp" class="d-block w-100" alt="..." />
-          <div class="black-block container-sm">
-            <div class="black-block-text">
-              <h3>“To create an environnement in which knowledge about coffee and its sphere can be obtained”</h3>
+
+
+
+
+
+  <!-- Slider -->
+  <div class="container-fluid position-absolute top-slider-position start-0 end-0 ps-0 pe-0 max-width-slider">
+    <div class="row col-12 justify-content-center">
+      <div id="first-carousel" class="carousel slide carousel-fade ps-0 pe-0" data-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/images/carousel/wood.webp" class="d-block" alt="..." />
+            <div
+              class="text-block d-flex align-items-center position-absolute justifiy-content-center bg-black container-sm">
+              <div class="black-block-text">
+                <h2>“To create an environnement in which knowledge about coffee and its sphere can be obtained”</h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/assets/images/carousel/beans.webp" class="d-block w-100" alt="..." />
-          <div class="black-block container-sm">
-            <div class="black-block-text">
-              <h3>“This is a great introduction do the coffee industry's best beans on the planet”</h3>
+          <div class="carousel-item">
+            <img src="/assets/images/carousel/beans.webp" class="d-block" alt="..." />
+            <div
+              class="text-block d-flex align-items-center position-absolute justifiy-content-center bg-black container-sm">
+              <div class="black-block-text">
+                <h2>“This is a great introduction do the coffee industry's best beans on the planet”</h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/assets/images/carousel/filter.webp" class="d-block w-100" alt="..." />
-          <div class="black-block container-sm">
-            <div class="black-block-text">
-              <h3>“Coffee in code out, this is the way of eternal life and empowerment of the soul”</h3>
+          <div class="carousel-item">
+            <img src="/assets/images/carousel/filter.webp" class="d-block" alt="..." />
+            <div
+              class="text-block d-flex align-items-center position-absolute justifiy-content-center bg-black container-sm">
+              <div class="black-block-text">
+                <h2>“Coffee in code out, this is the way of eternal life and empowerment of the soul”</h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="carousel-controls">
-          <div class="prev-button">
-            <button class="carousel-control-prev" type="button" data-bs-target="#first-carousel" data-bs-slide="prev">
-              <img src="/assets/icons/arrow-left.svg" />
-              <span aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-          </div>
-          <div class="next-button">
-            <button class="carousel-control-next" type="button" data-bs-target="#first-carousel" data-bs-slide="next">
-              <img src="/assets/icons/arrow-right.svg" />
-              <span aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="carousel-controls">
+            <div class="prev-button">
+              <button class="carousel-control-prev" type="button" data-bs-target="#first-carousel" data-bs-slide="prev">
+                <img src="/assets/icons/arrow-left.svg" />
+                <span aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+            </div>
+            <div class="next-button">
+              <button class="carousel-control-next" type="button" data-bs-target="#first-carousel" data-bs-slide="next">
+                <img src="/assets/icons/arrow-right.svg" />
+                <span aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Carousel End-->
+
+
+
+
+
 
   <!-- Articles -->
-  <div class="container-fluid row col-10 rule-center-container justify-content-center">
-    <div class="card w-auto mw-100 border-0">
+  <div
+    class="container-fluid row position-absolute d-flex align-content-center justify-content-center p-0 m-0 articles-rules ">
+    <div class="card col-7 border-0 ms-2 ps-5 d-flex justify-content-center">
 
 
-      <div class="row g-0 pb-5">
-        <div class="col-4">
+
+      <div class="row g-0 pb-4">
+        <div class="col-3">
           <img src="/assets/images/posts/Post thumbnail-1.webp" class="img-fluid" alt="tree-coffee">
         </div>
-        <div class="col-6">
-          <div class="card-body">
+        <div class="col-8">
+          <div class="card-body ps-4 m-0">
             <h2 class="card-title">Wonderful Copenhagen 2021</h2>
             <p class="card-text"><small class="text-muted">Published 12/07/2021</small></p>
-            <h5 class="card-text">TEXT</h5>
-            <button type="button " class="btn card-button btn-outline-dark">Read more</button>
+            <h5 class="card-text">Lorem ipsum dolor sit amet, consetetur, sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+              justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata santus est...</h5>
+            <button type="button" class="btn card-button btn-outline-dark rounded-0">Read more</button>
           </div>
         </div>
       </div>
@@ -187,60 +205,83 @@
 
 
 
-      <div class="row g-0 pb-5">
-        <div class="col-4">
+      <div class="row g-0 pb-4">
+        <div class="col-3">
           <img src="/assets/images/posts/Post thumbnail-2.webp" class="img-fluid" alt="tree-coffee">
         </div>
-        <div class="col-6">
-          <div class="card-body">
+        <div class="col-8">
+          <div class="card-body ps-4 m-0">
             <h2 class="card-title">The most expensive coffee on the market</h2>
             <p class="card-text"><small class="text-muted">Published 12/07/2021</small></p>
-            <h5 class="card-text">TEXT</h5>
-            <button type="button " class="btn card-button btn-outline-dark">Read more</button>
+            <h5 class="card-text">Lorem ipsum dolor sit amet, consetetur, sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+              justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata santus est...</h5>
+            <button type="button" class="btn card-button btn-outline-dark rounded-0">Read more</button>
           </div>
         </div>
       </div>
 
 
-      <div class="row g-0 pb-5">
-        <div class="col-4">
+
+      <div class="row g-0 pb-4">
+
+        <div class="col-3">
           <img src="/assets/images/posts/Post thumbnail-3.webp" class="img-fluid" alt="tree-coffee">
         </div>
-        <div class="col-6">
-          <div class="card-body">
+        <div class="col-8">
+          <div class="card-body ps-4 m-0">
             <h2 class="card-title">10 type of coffee beans you need to know</h2>
             <p class="card-text"><small class="text-muted">Published 12/07/2021</small></p>
-            <h5 class="card-text">TEXT</h5>
-            <button type="button " class="btn card-button btn-outline-dark">Read more</button>
+            <h5 class="card-text">Lorem ipsum dolor sit amet, consetetur, sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+              justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata santus est...</h5>
+            <button type="button " class="btn card-button btn-outline-dark rounded-0">Read more</button>
           </div>
         </div>
       </div>
 
 
-      <div class="row g-0 pb-5">
-        <div class="col-4">
+
+      <div class="row g-0 pb-4">
+        <div class="col-3">
           <img src="/assets/images/posts/Post thumbnail-4.webp" class="img-fluid" alt="tree-coffee">
         </div>
-        <div class="col-6">
-          <div class="card-body">
+        <div class="col-8">
+          <div class="card-body ps-4 m-0">
             <h2 class="card-title">Challenge your barista skills to the max</h2>
             <p class="card-text"><small class="text-muted">Published 12/07/2021</small></p>
-            <h5 class="card-text">TEXT</h5>
-            <button type="button " class="btn card-button btn-outline-dark">Read more</button>
+            <h5 class="card-text">Lorem ipsum dolor sit amet, consetetur, sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+              justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata santus est...</h5>
+            <button type="button " class="btn card-button btn-outline-dark rounded-0">Read more</button>
           </div>
+        </div>
+      </div>
+
+      <div class="grey-line col-11 mt-0 mb-4"></div>
+
+      <!-- Buttons of articles -->
+      <div class="container-fluid row col-11 d-flex justify-content-around align-content-center p-0 m-0">
+        <div class="col d-flex justify-content-start p-0 m-0"> <button type="button "
+            class="btn card-button btn-outline-dark rounded-0">Previous</button>
+        </div>
+        <div class="col d-flex justify-content-center align-items-center p-0 m-0"> Page 1 of 3
+        </div>
+        <div class="col d-flex justify-content-end p-0 m-0"> <button type="button "
+            class="btn card-button btn-outline-dark rounded-0">Next</button>
         </div>
       </div>
     </div>
 
-    <div class="col-3 list-info">
+    <div class="col-3 ps-5">
 
       <div class="shop">
         <h3>WBC Shop</h3>
         <p>Your shopping car is empty </p>
-        <button type="button " class="btn card-button btn-outline-dark">Visit the shop</button>
+        <button type="button " class="btn card-button btn-outline-dark rounded-0">Visit the shop</button>
       </div>
 
-      <div class="grey-line-info"></div>
+      <div class="grey-line mt-4 mb-4"></div>
 
       <div class="event">
         <h3> Next event</h3>
@@ -248,10 +289,10 @@
         <h6>Copenhagen, Denmark</h6>
         <h6>Dates : 25th - 27th August 2011</h6>
         <h6>Theme : SENSORY</h6>
-        <button type="button " class="btn card-button btn-outline-dark">Sign up now</button>
+        <button type="button " class="btn card-button btn-outline-dark rounded-0">Sign up now</button>
       </div>
 
-      <div class="grey-line-info"></div>
+      <div class="grey-line mt-4 mb-4"></div>
 
       <div class="scoreboard">
         <h3>Scoreboard</h3>
@@ -265,11 +306,96 @@
         <h6>2021 - Germany</h6>
 
       </div>
+    </div>
+    <!-- Sponsors -->
+
+    <div class="container-fluid width-sponsors p-5 text-center ">
+      <div class="row p-0 m-0">
+        <div class="pt-5 mt-5 grey-line"></div>
+      </div>
+      <div class="row">
+        <h3 class="p-5">World Barista Cup Sponsors</h3>
+      </div>
+      <div class="row">
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-20.png" class="img-fluid mt-3 p-0" alt="Mojotogo">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-1.png" class="img-fluid m-0 p-0" alt="Bonaqa"></div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-2.png" class="img-fluid m-0 p-0" alt="Cask"></div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-3.png" class="img-fluid m-0" alt="Naturalmilk">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-4.png" class="img-fluid m-0 p-0" alt="Trold"></div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-5.png" class="img-fluid m-0 p-0" alt="Figgjo"></div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-6.png" class="img-fluid m-0 p-0" alt="Espresso">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-7.png" class="img-fluid m-0 p-0" alt="Eggegard">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-8.png" class="img-fluid m-0 p-0"
+            alt="Espressoparts"></div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-9.png" class="img-fluid m-0 p-0" alt="O"></div>
+      </div>
+      <div class="row">
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-10.png" class="img-fluid m-0 pt-4" alt="Mercanta">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-11.png" class="img-fluid m-0 pt-4" alt="Mahlkonig">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-12.png" class="img-fluid m-0 pt-4" alt="ACdCE">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-13.png" class="img-fluid m-0 pt-4"
+            alt="LincolnYork"></div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-14.png" class="img-fluid m-0 pt-4" alt="Gourmet">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-15.png" class="img-fluid m-0 pt-4" alt="Bunn"></div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-16.png" class="img-fluid m-0 pt-4"
+            alt="Moccamaster"></div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-17.png" class="img-fluid m-0 pt-4"
+            alt="Cafedecolumbia">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-18.png" class="img-fluid m-0 pt-4" alt="Cafetto">
+        </div>
+        <div class="col"> <img src="/assets/images/sponsors/sponsor-19.png" class="img-fluid m-0 pt-4" alt="Loring">
+        </div>
+      </div>
 
     </div>
-    <div class="container-fluid row col-10 col-10 grey-line-bottom"></div>
+
+
+
+
+    <div class="container-fluid bg-black footer col-10 mt-5 mb-5">
+<div class="row col-8 d-flex justify-content-between">
+  <div class="col-6">      <a class="navbar-brand" href="https://worldbaristacup.nicolasbugdaci.com" target="_blank""
+    ><img class=" WBC" src="/assets/logo-white.svg" alt="World Barista Cup" /></a></div>
+  <div class="col-2 d-flex justify-content-between ps-0 ms-0 pe-0 me-0">
+
+      <a href="#" class="nav-link text-white"><i class="fa-brands fa-linkedin-in"></i></a>
+
+
+      <a href="#" class="nav-link text-white"><i class="fa-brands fa-twitter"></i></a>
+
+
+      <a href="#" class="nav-link text-white"><i class="fa-brands fa-instagram"></i></a>
+
+
+      <a href="#" class="nav-link text-white"><i class="fa-brands fa-facebook-f"></i></a>
 
   </div>
+</div>
+<div class="col-8">        <div class="pt-5 grey-line m-0"></div>
+</div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+
 
 
 </body>
